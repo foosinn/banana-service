@@ -1,0 +1,10 @@
+{
+  "name": "inanc/banana-service",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "BananaService\\": "src/"
+    }
+  }
+}
