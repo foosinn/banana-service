@@ -1,11 +1,21 @@
 {
   "name": "inanc/banana-service",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "require": {
   },
   "autoload": {
     "psr-4": {
       "BananaService\\": "src/"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../.sources"
+    },
+    {
+      "type": "path",
+      "url": "../connector-essentials"
+    }
+  ]
 }
