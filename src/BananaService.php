@@ -35,6 +35,13 @@ class BananaService {
     }
 
     /**
+     * @return Banana
+     */
+    function getVeryShortBanana() : Banana {
+        return new Banana(0.47);
+    }
+
+    /**
      * @return array
      */
     function getRainbowBananaBunch() : array {
