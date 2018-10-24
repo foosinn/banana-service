@@ -5,6 +5,7 @@ namespace BananaService;
 use BananaService\Model\Banana;
 
 /**
+ * @author INANC
  * Class BananaService
  * @package BananaService
  */
